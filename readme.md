@@ -1,31 +1,31 @@
 # Load Balancer with Shortest Queue Strategy
 
-A scalable load balancing system implemented in Python, utilizing the Shortest Queue Strategy for optimal request distribution. Developed at Rochester Institute of Technology.
+A high-performance network traffic management system that optimizes server resource utilization and request processing.
 
-## 📁 Project Structure
+## Problem Solved
 
-```
-.
-├── client.py              # Client implementation for sending requests
-├── config.json           # Configuration settings for the system
-├── controller.py         # Controller logic for managing load balancing
-├── loadbalancer.py       # Main load balancer implementation
-├── server.py            # Server implementation for handling requests
-├── README.md            # Project documentation
-├── logs/                # Log files directory
-│   ├── clients/         # Client-specific logs
-│   ├── controller/      # Controller operation logs
-│   └── servers/         # Server-specific logs
-└── model/               # Data models
-    ├── ClientRequest.py    # Client request model
-    ├── ClientResponse.py   # Client response model
-    ├── ControllerRequest.py # Controller request model
-    └── ServerResponse.py   # Server response model
-```
+Inefficient server load distribution leads to performance bottlenecks, uneven resource allocation, and potential service disruptions during high-traffic scenarios.
 
-## 🔄 Overview
+## 🔄 Architecture
 
-This load balancer implementation uses Python's socket library and multithreading to efficiently distribute client requests across multiple servers. It employs the Shortest Queue Strategy to minimize response times and optimize resource utilization.
+- Shortest Queue Load Balancing
+- Concurrent Client-Server Model
+- Scalable Request Handling
+
+## User Impact
+
+- Efficient traffic distribution using Shortest Queue Strategy
+- Concurrent handling of multiple client connections
+- Reduced server response times
+- Improved overall system reliability
+
+## 🔍 Key Skills Demonstrated
+
+- Object-Oriented Programming (OOP)
+- Socket Programming
+- Concurrent Programming
+- UDP Protocol Implementation
+- Python Development
 
 ## 🚀 Key Components
 
@@ -136,10 +136,23 @@ Logs are organized in three directories:
 - `logs/controller/`: System control logs
 - `logs/servers/`: Individual server logs
 
-## 🔍 Key Skills Demonstrated
+## 📁 Project Structure
 
-- Object-Oriented Programming (OOP)
-- Socket Programming
-- Concurrent Programming
-- UDP Protocol Implementation
-- Python Development
+```
+.
+├── client.py              # Client implementation for sending requests
+├── config.json           # Configuration settings for the system
+├── controller.py         # Controller logic for managing load balancing
+├── loadbalancer.py       # Main load balancer implementation
+├── server.py            # Server implementation for handling requests
+├── README.md            # Project documentation
+├── logs/                # Log files directory
+│   ├── clients/         # Client-specific logs
+│   ├── controller/      # Controller operation logs
+│   └── servers/         # Server-specific logs
+└── model/               # Data models
+    ├── ClientRequest.py    # Client request model
+    ├── ClientResponse.py   # Client response model
+    ├── ControllerRequest.py # Controller request model
+    └── ServerResponse.py   # Server response model
+```
