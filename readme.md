@@ -1,4 +1,4 @@
-# Load Balancer with Shortest Queue Strategy
+# LoadBalancer: Smart Traffic Optimization
 
 A high-performance network traffic management system that optimizes server resource utilization and request processing.
 
