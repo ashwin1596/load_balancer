@@ -1,4 +1,4 @@
-# LoadBalancer: Smart Traffic Optimization
+# LoadBalancer: Smart Traffic Optimization (https://www.youtube.com/watch?v=dI8UkBEBBmg)
 
 A high-performance network traffic management system that optimizes server resource utilization and request processing.
 
@@ -6,7 +6,9 @@ A high-performance network traffic management system that optimizes server resou
 
 Inefficient server load distribution leads to performance bottlenecks, uneven resource allocation, and potential service disruptions during high-traffic scenarios.
 
-## 🔄 Architecture
+## Architecture
+
+![Architecture](https://github.com/ashwin1596/load_balancer/blob/main/Architecture.png)
 
 - Shortest Queue Load Balancing
 - Concurrent Client-Server Model
@@ -19,7 +21,7 @@ Inefficient server load distribution leads to performance bottlenecks, uneven re
 - Reduced server response times
 - Improved overall system reliability
 
-## 🔍 Key Skills Demonstrated
+## Key Skills Demonstrated
 
 - Object-Oriented Programming (OOP)
 - Socket Programming
@@ -27,7 +29,7 @@ Inefficient server load distribution leads to performance bottlenecks, uneven re
 - UDP Protocol Implementation
 - Python Development
 
-## 🚀 Key Components
+## Key Components
 
 ### Load Balancer (`loadbalancer.py`)
 - Implements the Shortest Queue Strategy
@@ -55,7 +57,7 @@ Inefficient server load distribution leads to performance bottlenecks, uneven re
 - **ControllerRequest**: Internal control messages
 - **ServerResponse**: Server status and health updates
 
-## ⚙️ Configuration
+## Configuration
 
 The `config.json` file contains all system settings:
 
@@ -85,7 +87,7 @@ The `config.json` file contains all system settings:
 }
 ```
 
-## 🛠️ Installation
+## Installation
 
 1. **Clone the repository**
 ```bash
@@ -104,7 +106,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## 🚀 Usage
+## Usage
 
 ### Starting the System
 
@@ -129,14 +131,14 @@ python server.py --port 8082
 python client.py --requests 100
 ```
 
-## 📊 Logging
+## Logging
 
 Logs are organized in three directories:
 - `logs/clients/`: Client operation logs
 - `logs/controller/`: System control logs
 - `logs/servers/`: Individual server logs
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
